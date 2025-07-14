@@ -123,8 +123,8 @@ export default function LandingPage() {
                         <Image
                           width={40}
                           height={40}
-                          src={testimonial.image}
-                          alt={testimonial.author}
+                          src={testimonial.image|| "/default-avatar.png"}
+                          alt={testimonial.author|| "user avatar"}
                           className="rounded-full object-cover border-2 border-primary/20"
                         />
                       </div>
