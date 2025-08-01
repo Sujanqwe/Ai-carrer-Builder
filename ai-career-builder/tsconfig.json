@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lib/checkUser.js", "lib/prisma.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lib/checkUser.js", "lib/prisma.js", "components/header.jsx", "app/layout.jsx", "app/page.jsx", "components/provider/theme-provider.tsx"],
   "exclude": ["node_modules"]
 }
